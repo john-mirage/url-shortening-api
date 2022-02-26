@@ -31,6 +31,7 @@ module.exports = {
       backgroundImage: {
         'working-illustration': "url('/src/assets/images/illustration-working.svg')",
         'shorten-background': "url('/src/assets/images/bg-shorten-mobile.svg')",
+        'boost-background': "url('/src/assets/images/bg-boost-mobile.svg')",
       },
     },
   },
