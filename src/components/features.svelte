@@ -24,11 +24,11 @@
 
 <template>
     <div class="w-full h-auto pt-40 pb-12 bg-light-gray">
-        <div class="container px-6 text-center">
+        <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl text-dark-violet font-bold mb-6">Advanced Statistics</h2>
             <p class="text-sm leading-6 text-grayish-violet font-medium">Track how your links are performing across the web with our advanced statistics dashboard.</p>
         </div>
-        <ul class="relative w-full h-auto px-6 mt-16">
+        <ul class="relative container mx-auto px-6 mt-16">
             {#each features as feature}
                 <Feature feature={feature} />
             {/each}
