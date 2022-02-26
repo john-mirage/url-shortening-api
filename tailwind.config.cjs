@@ -18,6 +18,8 @@ module.exports = {
       'grayish-violet': 'hsl(257, 7%, 63%)',
       'very-dark-blue': 'hsl(255, 11%, 22%)',
       'very-dark-violet': 'hsl(260, 8%, 14%)',
+      'white': 'hsl(0, 0%, 255%)',
+      'light-gray': 'hsl(230, 25%, 95%)',
     },
     extend: {
       fontFamily: {
@@ -25,6 +27,10 @@ module.exports = {
           'Poppins',
           ...defaultTheme.fontFamily.sans,
         ]
+      },
+      backgroundImage: {
+        'working-illustration': "url('/src/assets/images/illustration-working.svg')",
+        'shorten-background': "url('/src/assets/images/bg-shorten-mobile.svg')",
       },
     },
   },
