@@ -13,7 +13,7 @@
             <MenuButton />
             <div class="hidden lg:block lg:ml-auto lg:space-x-2">
                 <Button type="text" size="sm" label="Login" />
-                <Button type="filled" size="sm" label="Sign Up" />
+                <Button type="filled" size="sm" label="Sign Up" rounded />
             </div>
         </div>
     </header>

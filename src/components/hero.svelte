@@ -14,7 +14,7 @@
             <div class="w-full h-auto px-6 lg:max-w-[31rem] xl:max-w-[37.5rem] lg:ml-auto">
                 <h1 class="text-4xl leading-10 text-very-dark-violet font-bold mb-4 lg:text-7xl lg:leading-[5rem]">More than just shorter links</h1>
                 <p class="text-base leading-6 text-grayish-violet font-medium mb-6">Build your brand's recognition and get detailed insights on how your links are performing.</p>
-                <Button type="filled" size="lg" label="Get Started" />
+                <Button type="filled" size="lg" label="Get Started" rounded />
             </div>
         </section>
 
