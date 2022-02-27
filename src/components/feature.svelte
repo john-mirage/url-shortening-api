@@ -5,10 +5,11 @@
         description: string;
     }
     export let feature: Feature
+    export let featureIndex: number
 </script>
 
 <template>
-    <li class="relative z-20 w-full h-auto p-8 rounded-lg bg-white mb-20 last:mb-0 text-center">
+    <li class="relative z-20 w-full h-auto p-8 rounded-lg bg-white text-center" class:lg:translate-y-10={featureIndex === 1} class:lg:translate-y-20={featureIndex === 2}>
         <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 flex w-20 h-20 rounded-full bg-dark-violet">
             <img class="w-10 h-auto m-auto" src={feature.icon} alt="">
         </div>

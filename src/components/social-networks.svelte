@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <nav class="flex flex-row justify-center items-center gap-6 w-full h-auto">
+    <nav class="flex flex-row justify-center items-center gap-6 w-full h-auto lg:w-auto">
         <a class="w-6 h-auto group" href="/">
             <FacebookIcon />
         </a>
