@@ -28,8 +28,10 @@ module.exports = {
         ]
       },
       backgroundImage: {
-        'shorten-background': "url('/src/assets/images/bg-shorten-mobile.svg')",
-        'boost-background': "url('/src/assets/images/bg-boost-mobile.svg')",
+        'shorten-mobile': "url('/src/assets/images/bg-shorten-mobile.svg')",
+        'shorten-desktop': "url('/src/assets/images/bg-shorten-desktop.svg')",
+        'boost-mobile': "url('/src/assets/images/bg-boost-mobile.svg')",
+        'boost-desktop': "url('/src/assets/images/bg-boost-desktop.svg')",
       },
     },
   },
