@@ -9,9 +9,7 @@
 <template>
     {#if type === "filled"}
         <button
-            class="relative inline-flex group overflow-hidden"
-            class:px-10={ size === "lg" }
-            class:px-6={ size === "sm" }
+            class={`relative inline-flex group overflow-hidden ${size === "sm" ? "min-w-[7.5rem]": ""} ${size === "lg" ? "min-w-[12rem]" : ""}`}
             class:h-12={ size === "lg" }
             class:h-10={ size === "sm" }
             class:rounded-full={ rounded }

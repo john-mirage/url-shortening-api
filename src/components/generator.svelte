@@ -1,5 +1,6 @@
 <script lang="ts">
     import { string } from 'yup'
+    import axios from 'axios'
     import Button from '@components/button.svelte'
 
     interface Link {
@@ -15,6 +16,15 @@
         let schema = string().required().url()
         const url = textInput.value
         if (await schema.isValid(url)) {
+            /*
+            axios.post("https://api.shrtco.de/v2/shorten", {
+                url: url,
+            }).then((response) => {
+                console.log(response)
+            }).catch(function (error) {
+                console.log(error);
+            });
+            */
             links = [...links, { baseUrl: url, shortUrl: "shortUrl", copied: false }]
             textInput.value = ""
         }
