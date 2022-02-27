@@ -10,8 +10,12 @@
 <template>
     <TopAppBar />
     <Hero />
-    <Generator />
-    <Features />
+    <div class="relative w-full h-auto bg-light-gray">
+        <div class="container mx-auto px-6 pb-10 lg:pb-48">
+            <Generator />
+            <Features />
+        </div>
+    </div>
     <CallToAction />
     <Footer />
 </template>
