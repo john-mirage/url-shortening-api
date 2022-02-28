@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .menu-icon-top-bar {
+        @apply rotate-45 translate-y-[8.5px];
+    }
+
+    .menu-icon-bottom-bar {
+        @apply -rotate-45 -translate-y-[8.5px];
+    }
+}
