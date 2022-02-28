@@ -34,7 +34,7 @@
         <div class="container mx-auto px-6 py-2 lg:py-3 flex flex-row justify-start items-center">
             <Logo />
             <Navigation />
-            <MenuButton on:click={toggleDrawer} />
+            <MenuButton on:click={toggleDrawer} drawerIsOpen={drawerIsOpen} />
             <div class="hidden lg:block lg:ml-auto lg:space-x-2">
                 <TextButton size="sm" label="Login" />
                 <FilledButton size="sm" label="Sign Up" rounded />
