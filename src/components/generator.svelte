@@ -1,7 +1,7 @@
 <script lang="ts">
     import { string } from 'yup'
     import axios from 'axios'
-    import Button from '@components/button.svelte'
+    import FilledButton from '@components/button-filled.svelte'
 
     interface Link {
         baseUrl: string;
@@ -50,19 +50,18 @@
             type="text"
             bind:this={textInput}
         />
-        <Button type="filled" size="lg" label="Shorten it!" on:click={handleSubmit} />
+        <FilledButton size="lg" label="Shorten it!" on:click={handleSubmit} />
     </div>
     {#if links.length > 0}
         <ul class="w-full h-auto -translate-y-12 md:-translate-y-16">
             {#each links as link, index}
-                <li class="flex flex-row justify-start items-center w-full h-auto p-6 bg-white rounded-lg mt-6 shadow-sm">
-                    <p class="text-very-dark-violet font-medium">{ link.baseUrl }</p>
-                    <p class="ml-auto mr-6 text-cyan font-medium">{ link.shortUrl }</p>
-                    <Button
-                        type="filled"
+                <li class="flex flex-col md:flex-row justify-start items-center w-full h-auto p-6 bg-white rounded-lg mt-6 shadow-sm">
+                    <p class="text-very-dark-violet font-medium mb-2 md:mb-0">{ link.baseUrl }</p>
+                    <p class="text-cyan font-medium mb-2 md:mb-0 md:ml-auto md:mr-6">{ link.shortUrl }</p>
+                    <FilledButton
                         size="sm"
                         label={link.copied ? "Copied!" : "Copy"}
-                        background={link.copied ? "violet" : "cyan"}
+                        inactive={link.copied ? true : false}
                         on:click={() => handleClipboard(index)}
                     />
                 </li>
