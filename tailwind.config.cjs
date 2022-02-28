@@ -20,6 +20,10 @@ module.exports = {
       'white': 'hsl(0, 0%, 255%)',
       'light-gray': 'hsl(230, 25%, 95%)',
     },
+    minWidth: {
+      'btn-lg': '12rem',
+      'btn-sm': '7.5rem',
+    },
     extend: {
       fontFamily: {
         sans: [
