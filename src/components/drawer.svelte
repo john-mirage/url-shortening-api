@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { fly } from 'svelte/transition';
     import FilledButton from '@components/button-filled.svelte'
     import TextButton from '@components/button-text.svelte'
 
@@ -10,7 +11,7 @@
 </script>
 
 <template>
-    <aside class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-full w-full max-w-lg h-auto p-6 lg:hidden">
+    <aside class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-full w-full max-w-lg h-auto p-6 lg:hidden" transition:fly="{{ y: -24, duration: 150 }}">
         <div class="w-full h-auto bg-dark-violet rounded-lg shadow-xl px-6 py-10">
             <nav class="flex flex-col justify-start items-center space-y-4 w-full h-auto">
                 {#each links as link}
