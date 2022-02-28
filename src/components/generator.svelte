@@ -52,7 +52,7 @@
         />
         <FilledButton size="lg" label="Shorten it!" on:click={handleSubmit} />
         {#if !urlIsValid}
-            <p class="absolute bottom-4 left-10 text-red text-sm font-medium italic">Please add a link</p>
+            <p class="absolute top-1 left-6 md:top-24 md:left-10 text-red text-sm font-medium italic">Please add a link</p>
         {/if}
     </div>
     {#if links.length > 0}
