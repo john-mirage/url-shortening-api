@@ -54,7 +54,7 @@
                 type="text"
                 bind:this={textInput}
         />
-        <FilledButton size="lg" label="Shorten it!" on:click={handleSubmit}/>
+        <FilledButton size="md" label="Shorten it!" on:click={handleSubmit}/>
         {#if !urlIsValid}
             <p class="absolute top-1 left-6 md:top-24 md:left-10 text-red text-sm font-medium italic">Please add a link</p>
         {/if}

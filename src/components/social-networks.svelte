@@ -7,16 +7,16 @@
 
 <template>
     <nav class="flex flex-row justify-center items-center gap-6 w-full h-auto lg:w-auto">
-        <a class="w-6 h-auto group" href="/">
+        <a class="w-auto h-6 group" href="/">
             <FacebookIcon />
         </a>
-        <a class="w-6 h-auto group" href="/">
+        <a class="w-auto h-6 group" href="/">
             <TwitterIcon />
         </a>
-        <a class="w-6 h-auto group" href="/">
+        <a class="w-auto h-6 group" href="/">
             <PinterestIcon />
         </a>
-        <a class="w-6 h-auto group" href="/">
+        <a class="w-auto h-6 group" href="/">
             <InstagramIcon />
         </a>
     </nav>
