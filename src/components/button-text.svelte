@@ -21,7 +21,7 @@
     {:else if size === "lg"}
         <button class="relative inline-flex h-12 px-10 group overflow-hidden">
             <span
-                class="m-auto text-base font-bold transition-colors group-hover:text-very-dark-violet"
+                class="m-auto text-lg font-bold transition-colors group-hover:text-very-dark-violet"
                 class:text-grayish-violet={ !onDark }
                 class:text-white={ onDark }
                 class:group-hover:text-very-dark-violet={ !onDark }

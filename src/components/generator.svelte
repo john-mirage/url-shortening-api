@@ -47,7 +47,7 @@
 <template>
     <div class="relative flex flex-col items-stretch gap-5 -translate-y-1/2 p-6 bg-dark-violet rounded-lg bg-shorten-mobile bg-no-repeat bg-right-top md:flex-row md:p-10 lg:bg-shorten-desktop">
         <input
-                class="w-full h-12 bg-white rounded-lg px-4 md:mb-0 md:flex-1 outline-cyan focus:outline-none"
+                class="text-base font-medium w-full h-12 bg-white rounded-lg px-4 md:mb-0 md:flex-1 outline-cyan focus:outline-none"
                 class:border-red={ !urlIsValid }
                 class:border-4={ !urlIsValid }
                 placeholder="Shorten a link here..."
