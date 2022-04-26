@@ -11,7 +11,7 @@
         </div>
 
         <section class="text-center lg:w-1/2 lg:text-left lg:order-1">
-            <div class="w-full h-auto px-6 lg:max-w-[31rem] xl:max-w-[37.5rem] lg:ml-auto">
+            <div class="w-full h-auto px-6 lg:max-w-[31rem] xl:max-w-[34.6875rem] lg:ml-auto">
                 <h1 class="text-[2.5rem] leading-[3rem] text-very-dark-violet font-bold mb-4 lg:text-7xl lg:leading-[5rem]">More than just shorter links</h1>
                 <p class="text-lg leading-[30px] text-grayish-violet font-medium mb-6">Build your brand's recognition and get detailed insights on how your links are performing.</p>
                 <FilledButton size="lg" label="Get Started" rounded />
