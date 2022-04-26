@@ -16,7 +16,7 @@
             on:click
         >
             <span class="m-auto text-white font-medium text-base">{ label }</span>
-            <div class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity bg-white group-hover:opacity-40"></div>
+            <span class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity bg-white group-hover:opacity-40"></span>
         </button>
     {:else if size === "lg"}
         <button
@@ -28,7 +28,7 @@
             on:click
         >
             <span class="m-auto text-white font-medium text-lg">{ label }</span>
-            <div class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity bg-white group-hover:opacity-40"></div>
+            <span class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity bg-white group-hover:opacity-40"></span>
         </button>
     {/if}
 </template>

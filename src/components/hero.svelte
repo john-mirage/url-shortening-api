@@ -6,8 +6,8 @@
 <template>
     <div class="w-full h-auto mb-32 mt-[7.5rem] lg:flex lg:flex-row lg:items-center">
 
-        <div class="relative w-full h-auto pt-[90%] mb-10 overflow-hidden lg:mb-0 lg:order-2 lg:w-1/2 lg:pt-0 lg:h-[30rem]">
-            <img class="absolute top-0 left-0 w-auto h-full max-w-none ml-6 lg:ml-24" src={WorkingIllustration} alt="Woman working on a computer">
+        <div class="relative w-full h-auto pt-[90%] mb-10 overflow-hidden sm:pt-0 sm:h-[26rem] lg:mb-0 lg:order-2 lg:w-1/2 lg:pt-0 lg:h-[30rem]">
+            <img class="absolute top-0 left-0 w-auto h-full max-w-none ml-6 sm:left-1/2 sm:-translate-x-1/2 sm:ml-12 lg:left-0 lg:translate-x-0 lg:ml-24" src={WorkingIllustration} alt="Woman working on a computer">
         </div>
 
         <section class="text-center lg:w-1/2 lg:text-left lg:order-1">
